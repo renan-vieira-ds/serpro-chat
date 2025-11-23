@@ -1,9 +1,7 @@
-import sys
-
 from search import search_prompt
 
 def main():
-   question = input("Digite sua pergunta pergunta relatica ao concurso SERPRO 2023: \n")
+   question = input("Digite sua pergunta relativa ao concurso SERPRO 2023: \n")
 
    chain = search_prompt(question)    
 
